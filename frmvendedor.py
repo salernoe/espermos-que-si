@@ -2,12 +2,12 @@ import tkinter as tk
 import tkinter.font as tkFont
 
 
-class Seller(tk.Toplevel):
+class vendedor(tk.Toplevel):
     def __init__(self, master = None):
         super().__init__(master)
         self.master = master
         #setting title
-        self.title("SELLER")
+        self.title("vendedor")
         #setting window size
         width=240
         height=130

@@ -6,7 +6,7 @@ import bll.Descuentos as desc
 from fdescuentos import Descuento
 
 
-class Dcrud(Toplevel):
+class Descu(Toplevel):
     def __init__(self, master=None):
         super().__init__(master)        
         self.master = master

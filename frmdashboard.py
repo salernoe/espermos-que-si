@@ -2,7 +2,7 @@ import tkinter as tk
 import tkinter.font as tkFont
 from wRegistro import Registro
 from wUserCRUD import Ucrud
-from frmdescuentos import Dcrud
+from frmdescuentos import Descu
 
 class Dashboard(tk.Toplevel):
     def __init__(self, master = None):
@@ -91,7 +91,7 @@ class Dashboard(tk.Toplevel):
         Ucrud(self)
     
     def abrir_descuentos(self):
-        Dcrud(self)
+       Descu(self) 
   
     def abrir_Organizacion(self):
         print("organizacion")

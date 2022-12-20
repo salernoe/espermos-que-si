@@ -6,7 +6,7 @@ import bll.usuarios as user
 import bll.TIPO as rol
 
 
-class Perfil(tk.Toplevel):
+class Users(tk.Toplevel):
     def __init__(self, master = None, user_id = None):
         super().__init__(master)
         self.master = master

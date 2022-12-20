@@ -1,6 +1,6 @@
 import tkinter as tk
 import tkinter.font as tkFont
-from wLogin import Login
+from frmlogin import Login
 from dal.db import Db
 
 class Welcome:

@@ -1,7 +1,7 @@
 import tkinter as tk
 import tkinter.font as tkFont
 import bll.usuarios as user
-from wPerfilCRUD import Perfil  
+from frmusers import Users  
 
 
 class User(tk.Toplevel):

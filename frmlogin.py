@@ -3,7 +3,7 @@ import tkinter.font as tkFont
 import tkinter.messagebox as tkMsgBox
 from wRegistro import Registro
 from frmdashboard import Dashboard
-from wSeller import Seller
+from frmvendedor import vendedor
 from frmuser import User
 import bll.usuarios as user1
 from dal.db import Db
@@ -103,7 +103,7 @@ class Login(tk.Toplevel):
                         Dashboard(self.master)
                         self.destroy()
                     elif user1.validarTipo(usuario, contrasenia) == 2:
-                        Seller(self.master)
+                        vendedor(self.master)
                         self.destroy()
                     else:
                         User(self.master, user_id=user1.id_usuario(usuario)[0])                                                                     
