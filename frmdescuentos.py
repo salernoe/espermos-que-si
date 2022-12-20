@@ -4,7 +4,7 @@ import tkinter.ttk as ttk
 import tkinter.messagebox as tkMsgBox
 import bll.Descuentos as desc
 from fdescuentos import Descuento
-
+from dal.db import Db
 
 class Descu(Toplevel):
     def __init__(self, master=None):
