@@ -50,7 +50,7 @@ class User(tk.Toplevel):
 
     def GButton_561_command(self):
         print(self.user_id)
-        Perfil.editar(self, User.get_id(self))
+        Users.editar(self, User.get_id(self))
 
 
     def GButton_269_command(self):

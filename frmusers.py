@@ -176,7 +176,7 @@ class Users(tk.Toplevel):
         GButton_271["command"] = self.cancelar
         
     
-        usuario = user.obtener_id(Perfil.get_id(self))                         
+        usuario = user.obtener_id(Users.get_id(self))                         
         GLineEdit_794.insert(0, usuario[1])
         GLineEdit_522.insert(0, usuario[2])
         GLineEdit_211.insert(0, usuario[3])
@@ -225,7 +225,7 @@ class Users(tk.Toplevel):
             tkMsgBox.showerror(self.master.title(), str(ex))
             
     def editar(self, id): 
-        Perfil(self.master, id)
+        Users(self.master, id)
         
     def get_id(self):
         return self.user_id

@@ -3,7 +3,7 @@ import tkinter.font as tkFont
 import tkinter.ttk as ttk
 import tkinter.messagebox as tkMsgBox
 import bll.usuarios as user
-from wRegistro import Registro
+from frmregistro import Registro
 
 class Ucrud(Toplevel):
     def __init__(self, master=None):

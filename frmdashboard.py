@@ -1,7 +1,7 @@
 import tkinter as tk
 import tkinter.font as tkFont
-from wRegistro import Registro
-from wUserCRUD import Ucrud
+from frmregistro import Registro
+from fregistro import Ucrud
 from frmdescuentos import Descu
 
 class Dashboard(tk.Toplevel):

@@ -150,12 +150,12 @@ class Db:
         
         sql_user = '''INSERT INTO USUARIOS (APELLIDO, NOMBRE, DNI, EMAIL, USUARIO, CONTRASEÑA, RID) 
                     VALUES                         
-                        ("SANCHEZ DE BOCK", 
-                        "MATIAS", 
-                        "31659877", 
-                        "TEST@TEST.COM", 
-                        "ADM", 
-                        "12345", 
+                        ("ernesto", 
+                        "ernesto", 
+                        "11111111", 
+                        "ernesto@ernesto.COM", 
+                        "ernesto", 
+                        "123456", 
                         "1");'''
 
         tablas = {"USUARIOS": sql_user, "TIPOS": sql_tipo, 
