@@ -3,7 +3,7 @@ from datetime import date
 import hashlib
 
 
-database = "CINEMAR.db" 
+database = "tpfinal.db" 
 
 class Db:
     @staticmethod

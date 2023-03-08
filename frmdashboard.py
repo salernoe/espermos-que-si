@@ -1,7 +1,7 @@
 import tkinter as tk
 import tkinter.font as tkFont
 from frmregistro import Registro
-from fregistro import Ucrud
+from fregistro import Regis
 from frmdescuentos import Descu
 
 class Dashboard(tk.Toplevel):
@@ -88,7 +88,7 @@ class Dashboard(tk.Toplevel):
 
        
     def abrir_usuarios(self):
-        Ucrud(self)
+        Regis(self)
     
     def abrir_descuentos(self):
        Descu(self) 

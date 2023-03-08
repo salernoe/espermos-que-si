@@ -5,7 +5,7 @@ import tkinter.messagebox as tkMsgBox
 import bll.usuarios as user
 from frmregistro import Registro
 
-class Ucrud(Toplevel):
+class Regis(Toplevel):
     def __init__(self, master=None):
         super().__init__(master)        
         self.master = master
